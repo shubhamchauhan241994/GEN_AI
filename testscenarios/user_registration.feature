@@ -10,3 +10,4 @@ Feature: User Registration
     When the user clicks the confirmation link in the email
     Then the user account should be activated successfully
     And the user should be able to log in with email "testuser@example.com" and password "StrongPass@123"
+  
